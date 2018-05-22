@@ -1,5 +1,5 @@
 # laravel-tips
-## Minimize, remove repeted Elequent query  with laravel scope
+## Minimize, remove repeated Elequent query  with laravel scope
 ### BEFORE
 ```
 
