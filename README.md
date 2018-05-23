@@ -100,7 +100,7 @@
         return $scope->join('user_roles', 'users.user_id', '=', 'user_roles.user_id');
     }
     public function scopeRoleJoin($scope) {
-        return $scope-->join('roles', 'user_roles.role_id', '=', 'roles.role_id');
+        return $scope->join('roles', 'user_roles.role_id', '=', 'roles.role_id');
     }
     public function scopeUserStatus($scope, $status) {
         return $scope->where('status', $status);
